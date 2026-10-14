@@ -16,8 +16,8 @@ public class VariableApp {
         System.out.println("My middle initial is "+  middleInitial);
 
         // Question 4: do I have pets?
-        boolean havePet = false ;
-        System.out.println("Have a pet: "+ havePet);
+        boolean hasPet = false ;
+        System.out.println("Do I have pets? "+ hasPet);
 
         // Question 5: a nice saying
         String message = "Don't judge a book by its cover";
