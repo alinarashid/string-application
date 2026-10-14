@@ -3,6 +3,8 @@ package com.pluralsight;
 public class VariableApp {
 
     public static void main(String[] args) {
+        // Step 1
+
         // Question 1: favorite color
         String favoriteColor = "Jade";
         System.out.println("My favorite color is "+ favoriteColor);
