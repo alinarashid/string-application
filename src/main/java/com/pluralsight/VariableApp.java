@@ -3,7 +3,7 @@ package com.pluralsight;
 public class VariableApp {
 
     public static void main(String[] args) {
-        // Step 1
+        System.out.println("*********Step 1*********");
 
         // Question 1: favorite color
         String favoriteColor = "Jade";
@@ -25,6 +25,16 @@ public class VariableApp {
         String message = "Don't judge a book by its cover";
         System.out.println("Message: "+ message);
 
+        System.out.println("*********Step 2*********");
+
+        int days = 7;
+        System.out.println("There are " + days + " days in a week.");
+        double coffeePrice = 4.99;
+        System.out.println("The coffee costs $"+ coffeePrice + ".");
+        char favoriteLetter = 'A';
+        System.out.println("My favourite letter is " + favoriteLetter + ".");
+        boolean isRaining = false ;
+        System.out.println("Is it raining? "+ isRaining);
 
     }
 
